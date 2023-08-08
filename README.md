@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# SHOPPING CART
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LIVE AT FIREBASE https://shopingcart-16d9e.web.app
+
+
 
 ## Available Scripts
 
