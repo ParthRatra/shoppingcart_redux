@@ -5,7 +5,7 @@ import {FaShoppingCart} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 const Navbar = () => {
-  const{cart}=useSelector((state)=>state)
+  const cart=useSelector((state)=>state.cart)
   return (
     <>
         <div className='bg-slate-900 '>
