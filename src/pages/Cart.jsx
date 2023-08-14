@@ -5,7 +5,7 @@ import Cartitem from '../components/Cartitem';
 
 const Cart = () => {
   // Access the 'cart' data from the Redux store
-  const { cart } = useSelector((state) => state);
+  const cart  = useSelector((state) => state.cart);
   
   const[amount,setamount]=useState(0)
 //   reduce ,filter,map isme reduce use hoga because add up krna
