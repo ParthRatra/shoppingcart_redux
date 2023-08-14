@@ -5,7 +5,7 @@ import {toast} from  'react-hot-toast'
 import 'react-toastify/dist/ReactToastify.css';
 const Productitme = ({post}) => {
     
-      const cart = useSelector((state) => state.cart);
+     const cart = useSelector((state) => state.cart);
     // mujeab removefromcart and add to cart function create krne vo dispatch function ke through kr skte
     const dispatch=useDispatch()
 
